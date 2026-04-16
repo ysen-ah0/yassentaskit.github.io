@@ -85,8 +85,9 @@ main {
 .title {
     text-align: center;
     margin-top: 30px;
-    color: #8a5cf6;
+    color: #1f73bd;
     font-size: 28px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .table-container {
@@ -105,7 +106,7 @@ table {
 }
 
 th {
-    background: linear-gradient(45deg, #8a5cf6, #6a3df5);
+    background: linear-gradient(45deg, #8a5cf6, #1f73bd);
     color: black;
     padding: 12px;
 }
@@ -180,7 +181,7 @@ form textarea {
 form input:focus,
 form textarea:focus {
     outline: none;
-    border-color: #4104d1;
+    border-color: #1f73bd;
 }
 
 form input[type="submit"] {
