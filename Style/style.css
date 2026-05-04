@@ -112,6 +112,7 @@ th {
     background: linear-gradient(45deg, #8a5cf6, #1f73bd);
     color: black;
     padding: 12px;
+  
 }
 
 td {
@@ -201,107 +202,3 @@ footer {
   margin-top: auto;
 }
 
-@media (max-width: 992px) {
-  .txt h2 {
-    font-size: 24px;
-  }
-
-  .txt p {
-    font-size: 16px;
-  }
-}
-
-@media (max-width: 768px) {
-  .top-section {
-    flex-direction: column;
-    gap: 10px;
-    padding: 20px 10px;
-  }
-
-  .txt h2 {
-    font-size: 22px;
-  }
-
-  .txt p {
-    font-size: 15px;
-  }
-
-  ul.pons {
-    font-size: 16px;
-  }
-
-  nav {
-    gap: 5px;
-  }
-
-  nav a {
-    margin: 5px;
-    font-size: 14px;
-  }
-
-  table {
-    width: 100%;
-    min-width: unset;
-    border: 0;
-  }
-
-  thead {
-    display: none;
-  }
-
-  tr {
-    display: block;
-    margin-bottom: 15px;
-    background: #1c1c1f;
-    border-radius: 10px;
-    overflow: hidden;
-  }
-
-  td {
-    display: flex;
-    justify-content: space-between;
-    padding: 12px;
-    border: none;
-    border-bottom: 1px solid #333;
-  }
-
-  td:last-child {
-    border-bottom: none;
-  }
-
-  td::before {
-    content: attr(data-label);
-    color: #8a5cf6;
-    font-weight: bold;
-  }
-}
-
-@media (max-width: 480px) {
-  .txt h2 {
-    font-size: 20px;
-  }
-
-  .txt p {
-    font-size: 14px;
-  }
-
-  form fieldset {
-    width: 95%;
-  }
-
-  nav {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  nav a {
-    width: 100%;
-    text-align: center;
-    padding: 10px 0;
-    border-top: 1px solid #333;
-  }
-
-  nav a:first-child {
-    border-top: none;
-  }
-}
